@@ -2,6 +2,14 @@ import os
 import sys
 import work_w_http
 
+""" The Text based browser
+Example:
+$ python3 browser.py dir-name
+> google.com
+Here some text in the web-site
+> exit
+dir-name - it folder where will store web-pages someone like cach web-browser
+"""
 
 # write your code here
 if len(sys.argv) > 1:
